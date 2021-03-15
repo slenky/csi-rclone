@@ -13,7 +13,7 @@
 # limitations under the License.
 
 VERSION=$(shell cat VERSION)
-REGISTRY_NAME=wunderio
+REGISTRY_NAME=docker.yq.credo.be/cust
 IMAGE_NAME=csi-rclone
 IMAGE_TAG=$(REGISTRY_NAME)/$(IMAGE_NAME):$(VERSION)
 
